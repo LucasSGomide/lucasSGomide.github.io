@@ -7,7 +7,7 @@ Projetos desenvolvidos por mim com intuito de aprimorar minhas habilidades em ca
 <hr />
 
 ### Projeto 1:
-<li>Curso de Desenvolvimento WEB ✅ </li> 
+<strong>Curso de Desenvolvimento WEB - Introdução ao HTML ✅ </strong>
 <ul>
 <li><a href="https://lucasSGomide.github.io/Aurora_Village_HTML" rel="nofollow">HTML - Aurora Village</a></li>
 </ul>
