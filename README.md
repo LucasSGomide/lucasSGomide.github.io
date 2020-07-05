@@ -2,7 +2,7 @@
 
 ### Sobre:
 
-Projetos desenvolvidos por mim com intuito de aprimorar minhas habilidades em cada tópico abordado.
+Este repositório contém projetos desenvolvidos por mim ao longo dos meus estudos em desenvolvimento WEB.
 
 <hr />
 
