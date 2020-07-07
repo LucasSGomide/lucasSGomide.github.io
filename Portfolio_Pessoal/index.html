@@ -4,23 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Santiago Gomide - Portfólio</title>
+
+    <style>
+
+      .menu-icons {
+        border-radius: 6px;
+        background-color: rgb(32, 32, 31);
+        padding: 7px 3px;
+        text-decoration: none;
+        width: 110px;
+        text-align: center;
+        color: white;
+      }
+
+      body {
+        background-color: rgb(224, 223, 221);
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      h1 {
+        font-family: Courier, monospace;
+        font-weight: 600;
+        text-align: center;
+        text-decoration:underline;
+        font-size: 40px;
+      }
+
+      .top-skills {
+        font-weight: 600;
+        font-size: 24px;
+        color: rgb(1, 80, 1);
+      }
+
+      .medium-skills {
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(165, 138, 19);
+      }
+
+      .descriptions{
+        font-style: italic;
+        color: rgb(50, 53, 50);
+        font-size: 12px;
+      }
+
+      .photo-default{
+        border-radius: 100%;
+      }
+
+    </style>
+
   </head>
   <body>
-    <h1>Lucas Santiago Gomide - Portfólio</h1>
+    <h1 id="topo-indice">Lucas Santiago Gomide - Portfólio WEB</h1>
 
     <hr>
-      <h4 id="topo-indice">Menu:</h4>
-    <ul>
-      <li><a href="#minha-foto">Minha foto</a></li>
-      <li><a href="#sobre-mim">Sobre mim</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#contato-lucas">Contato</a></li>
-    </ul>
-
+      <p class="menu-icons"><a href="#minha-foto" >Minha foto</a></p>
+      <p class="menu-icons"><a href="#sobre-mim">Sobre mim</a></p>
+      <p class="menu-icons"><a href="#habilidades">Habilidades</a></p>
+      <p class="menu-icons"><a href="#contato-lucas">Contato</a></p>
+  
     <hr><br>
     
-    <img src="images/lucas_santiago_gomide.jpeg" alt="Foto de Lucas Santiago Gomide" width="250px" border="1px" id="minha-foto"/>
-    <p>Foto tirada em um dos meus ambientes preferidos (Hamburgueria) fazendo uma das coisas que mais gosto (encontrar com pessoas queridas, comer bem e beber uma cerveja)</p>
+    <img src="images/lucas_santiago_gomide.jpeg" alt="Foto de Lucas Santiago Gomide" width="250px" id="minha-foto" class="photo-default"/>
+    <p class="descriptions">"Tirei esta foto em um dos meus ambientes preferidos (Hamburgueria) fazendo uma das coisas que mais gosto (encontrar com pessoas queridas, comer bem e beber uma cerveja)"</p>
     
     <h3 id="sobre-mim">Sobre mim:</h3>
 
@@ -37,12 +84,15 @@
     <ul>
       <li>Visual Studio Code</li>
       <li>Shell Script</li>
-      <li>HTML - Básico</li>
-      <li>Python - Intermediário</li>
-      <li><strong>Metodologias Ágeis</strong></li>
-      <li>PMBOK</li>
+      <li>HTML</li>
+      <li class="medium-skills">Python</li>
+      <li class="top-skills">Metodologias Ágeis</li>
+      <li class="medium-skills">PMBOK</li>
       <li>FEL</li>
       <li>Prince 2</li>
+      <li class="top-skills">Trabalho em Equipe</li>
+      <li class="medium-skills">Excel</li>
+      <li>CSS</li>
     </ul>
 
     <h3 id="contato-lucas">Contato</h3>
