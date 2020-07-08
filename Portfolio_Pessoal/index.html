@@ -6,29 +6,58 @@
     <title>Lucas Santiago Gomide - Portfólio</title>
 
     <style>
+      #menu {
+        background-color: rgb(32, 32, 31);
+        height: 250px;
+        width: 100%;
+        margin: 10px 0px;
+        position: absolute;
+        top: 0px;
+      }
 
       .menu-icons {
-        border-radius: 6px;
-        background-color: rgb(32, 32, 31);
-        padding: 7px 3px;
-        text-decoration: none;
-        width: 110px;
+        border-radius: 15px;
+        background-color: rgb(228, 222, 222);
+        padding: 10px 7px;
+        font-size: 18px;
         text-align: center;
-        color: white;
+        position: relative;
+        bottom: -120px;
+        left: 30px;
+      }
+
+      #main-content {
+        width: 1200px;
+        margin: auto;
+        position: relative;
+        bottom: -300px;
       }
 
       body {
         background-color: rgb(224, 223, 221);
         font-family: 'Courier New', Courier, monospace;
-      
       }
 
       h1 {
         font-family: Courier, monospace;
         font-weight: 600;
-        text-align: center;
-        text-decoration:underline;
-        font-size: 40px;
+        font-size: 60px;
+        color: rgb(228, 222, 222);
+        margin: 0;
+        position: relative;
+        bottom: -30px;
+        left: 800px;
+      }
+
+      h2 {
+        font-family: Courier, monospace;
+        font-weight: 600;
+        font-size: 35px;
+        color: rgb(122, 120, 120);
+        margin: 0;
+        position: relative;
+        bottom: -20px;
+        left: 810px;
       }
 
       .top-skills {
@@ -49,63 +78,104 @@
         font-size: 12px;
       }
 
-      .photo-default{
+      #minha-foto {
+        width: 220px;
+        position: relative;
+        bottom: 120px;
+        left: 550px;
+      }
+
+      #photo-description {
+        width: 300px;
+        height: 30px;
+        position: relative;
+        bottom: -260px;
+        left: 520px;
+      }
+
+      .photo-radius{
         border-radius: 100%;
+      }
+
+      #footer {
+        background: rgb(32, 32, 31);
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        bottom: -600px;
+        text-align: center;
+        color: rgb(228, 222, 222);
+        
+      }
+
+      .footer-adjust {
+        margin-top: 10px;
       }
 
     </style>
 
   </head>
   <body>
-    <h1 id="topo-indice">Lucas Santiago Gomide - Portfólio WEB</h1>
+    <div id="menu">
 
-    <hr>
-      <p class="menu-icons"><a href="#minha-foto" >Minha foto</a></p>
-      <p class="menu-icons"><a href="#sobre-mim">Sobre mim</a></p>
-      <p class="menu-icons"><a href="#habilidades">Habilidades</a></p>
-      <p class="menu-icons"><a href="#contato-lucas">Contato</a></p>
-  
-    <hr><br>
+      <!-- é possível usar span no lugar de p*/ --> 
+     <span class="menu-icons"><a href="#minha-foto" >Minha foto</a></span> 
+     <span class="menu-icons"><a href="#sobre-mim">Sobre mim</a></span>
+     <span class="menu-icons"><a href="#habilidades">Habilidades</a></span>
+     <span class="menu-icons"><a href="#contato-lucas">Contato</a></span> 
+
+     <h1>Lucas Gomide</h1>
+     <h2>Full-Stack DEV</h2>
+
+     <img src="images/lucas_santiago_gomide.jpeg" alt="Foto de Lucas Santiago Gomide" id="minha-foto" class="photo-radius"/>
+
+    </div>
+
+    <div>
+      <p class="descriptions" id="photo-description">"Tirei esta foto em um dos meus ambientes preferidos (Hamburgueria) fazendo uma das coisas que mais gosto (encontrar com pessoas queridas, comer bem e beber uma cerveja)"</p>
+    </div>
     
-    <img src="images/lucas_santiago_gomide.jpeg" alt="Foto de Lucas Santiago Gomide" width="250px" id="minha-foto" class="photo-default"/>
-    <p class="descriptions">"Tirei esta foto em um dos meus ambientes preferidos (Hamburgueria) fazendo uma das coisas que mais gosto (encontrar com pessoas queridas, comer bem e beber uma cerveja)"</p>
-    
-    <h3 id="sobre-mim">Sobre mim:</h3>
+    <div id="main-content">
+      
+      <h3 id="sobre-mim">Sobre mim:</h3>
 
-    <p>
-      Meu nome é <strong>Lucas Santiago Gomide</strong>, tenho 27 anos, sou Brasileiro e mais especificamente "Mineiro" de Belo Horizonte. 
-      <br><br>
-      Sempre fui um <strong>apaixonado por tecnologia</strong>, joguei jogos online por boa parte da minha adolescência, em especial (Tibia), este jogo deixou sua marca em minha vida.
-      <br><br>
-      Sou <strong>formado em Arquitetura e Urbanismo</strong> pela UNIBH (Centro Universitário de Belo Horizonte), cursei <strong>pós graduação em Gestão de Projetos de Engenharia</strong> também pela UNIBH (Centro Universitário de Belo Horizonte). E foi neste ponto da minha vida que minha paixão por tecnologia me pegou novamente. Devido ao meu contato direto com professores e colegas da área de TI na pós graduação, e às experiências com programação em "Tibia" decidi resgatar um sonho antigo (atuar na área de TI).
-      Tive a sorte e o prazer de conhecer a <strong>Trybe</strong> logo quando comecei a realizar esta transição de área de atuação, hoje estou <strong>cursando "Desenvolvimento WEB Full-stack"</strong>. Acredito que com muito <strong>esforço, dedicação e trabalho duro</strong> esta será mais uma etapa da minha vida que ficará marcada como "O inicio de uma nova jornada rumo ao sucesso e a realização profissional".
-    </p>
+      <p>
+        Meu nome é <strong>Lucas Santiago Gomide</strong>, tenho 27 anos, sou Brasileiro e mais especificamente "Mineiro" de Belo Horizonte. 
+        <br><br>
+        Sempre fui um <strong>apaixonado por tecnologia</strong>, joguei jogos online por boa parte da minha adolescência, em especial (Tibia), este jogo deixou sua marca em minha vida.
+        <br><br>
+        Sou <strong>formado em Arquitetura e Urbanismo</strong> pela UNIBH (Centro Universitário de Belo Horizonte), cursei <strong>pós graduação em Gestão de Projetos de Engenharia</strong> também pela UNIBH (Centro Universitário de Belo Horizonte). E foi neste ponto da minha vida que minha paixão por tecnologia me pegou novamente. Devido ao meu contato direto com professores e colegas da área de TI na pós graduação, e às experiências com programação em "Tibia" decidi resgatar um sonho antigo (atuar na área de TI).
+        Tive a sorte e o prazer de conhecer a <strong>Trybe</strong> logo quando comecei a realizar esta transição de área de atuação, hoje estou <strong>cursando "Desenvolvimento WEB Full-stack"</strong>. Acredito que com muito <strong>esforço, dedicação e trabalho duro</strong> esta será mais uma etapa da minha vida que ficará marcada como "O inicio de uma nova jornada rumo ao sucesso e a realização profissional".
+      </p>
 
-    <h3 id="habilidades">Habilidades:</h3>
-    <ul>
-      <li>Visual Studio Code</li>
-      <li>Shell Script</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li class="medium-skills">Python</li>
-      <li class="medium-skills">Gestão de Projetos</li>
-      <li class="top-skills">Metodologias Ágeis</li>
-      <li class="medium-skills">PMBOK</li>
-      <li>FEL</li>
-      <li>Prince 2</li>
-      <li class="medium-skills">Excel</li>
-      <li class="top-skills">Trabalho em Equipe</li>
-      <li class="top-skills">Inglês</li>
-    </ul>
+      <h3 id="habilidades">Habilidades:</h3>
+      <ul>
+        <li>Visual Studio Code</li>
+        <li>Shell Script</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li class="medium-skills">Python</li>
+        <li class="medium-skills">Gestão de Projetos</li>
+        <li class="top-skills">Metodologias Ágeis</li>
+        <li class="medium-skills">PMBOK</li>
+        <li>FEL</li>
+        <li>Prince 2</li>
+        <li class="medium-skills">Excel</li>
+        <li class="top-skills">Trabalho em Equipe</li>
+        <li class="top-skills">Inglês</li>
+      </ul>
 
-    <h3 id="contato-lucas">Contato</h3>
-    <a target="_blank" href="https://github.com/LucasSGomide"><img src="images/github_picto.png" alt="Pictograma GitHub" width="70px"/></a>
-    <a target="_blank" href="https://linkedin.com/in/lucassgomide"><img src="images/linkedin-picto.png" alt="Pictograma GitHub" width="70px"/></a>
+      <h3 id="contato-lucas">Contato:</h3>
+      <a target="_blank" href="https://github.com/LucasSGomide"><img src="images/github_picto.png" alt="Pictograma GitHub" width="70px"/></a>
+      <a target="_blank" href="https://linkedin.com/in/lucassgomide"><img src="images/linkedin-picto.png" alt="Pictograma GitHub" width="70px"/></a>
 
-    <a href="#topo-indice"><h5>Topo</h5></a>
+   
+  </div>
 
-    <hr><br>
-
+  <div id="footer">
+    <a href="#topo-indice"><h5 class="footer-adjust">TOPO</h5></a>
     © Comunica Projetos - 2020
+  </div>
+  
   </body>
 </html>
