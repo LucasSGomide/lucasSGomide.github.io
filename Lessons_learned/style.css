@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
+  font-size: 18px;
+}
+
+#cabecalho {
+  background-color: rgb(29 , 28 , 28);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  border-bottom: 2px solid black;
+}
+
+#titulo {
+  color: rgb(29 , 28 , 28);
+  background-color: rgb(179 , 179 , 179);
+  border-bottom: 3px solid forestgreen;
+  padding-top: 12px;
+  padding-left: 310px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.navegator {
+  width: 50%;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  margin: 10px;
+  text-decoration: underline;
+}
+
+h3 {
+  margin: 10px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(179 , 179 , 179);
+  font-weight: 600;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+#github-icon {
+  width: 90px;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+#linkedin-icon {
+  width: 53px;
+  margin-left: 60px;
+}
+
+#mail-icon {
+  width: 53px;
+  margin-left: 80px;
+}
+
+#trybe-icon {
+  width: 100px;
+  position: absolute;
+  margin-left: 665px;
+  margin-top: -35px;
+}
+
+#minha_foto {
+  width: 140px;
+  border-radius: 100%;
+  margin-top: -106px;
+  background-color: rgb(29 , 28 , 28);
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.licoes-wrapper {
+  float: left;
+  width: 50%;
+  margin-top: 180px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+#licoes_aprendidas {
+  float: left;
+  text-align: center;
+}
+
+#licoes_a_aprender {
+  float: right;
+  margin: auto;
+  text-align: center;
+  list-style-type: none;
+}
+
+.schedule-table {
+  float: right;
+  margin-top: 190px;
+  margin-right: 70px;
+  width: 30%;
+}
+
+table , th , td {
+  text-align: center;
+  border: 1px solid  rgb(29 , 28 , 28);
+  margin-right: 70px;
+  border-collapse: collapse;
+}
+
+.artigo-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  clear: both;
+  height: 200px;
+  margin-bottom: 100px;
+  border-top: rgb(29 , 28 , 28) 1px solid;
+}
+
+.lado-esquerdo {
+  width: 60%;
+  padding-top: 10px;
+  margin-right: 30px;
+  text-align: justify;
+  float: left;
+}
+
+article.lado-esquerdo p {
+  line-height: 20px;
+}
+
+article.lado-esquerdo h2 {
+  text-align: center;
+}
+
+article.lado-esquerdo span {
+  color: forestgreen;
+}
+
+.lado-direito {
+  padding-top: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  margin-bottom: 30px;
+  float: right;
+  width: 32%;
+}
+
+aside.lado-direito p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.soft-skills {
+  position: absolute;
+  bottom: -60px;
+  right: 180px;
+  color: rgb(29 , 28 , 28);
+}
+
+#rodape {
+  background-color: black;
+  clear: both;
+  height: 50px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.footer-copyrights {
+  padding-top: 10px;
+  color: rgb(179 , 179 , 179);
+}
