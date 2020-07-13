@@ -7,7 +7,7 @@ Este repositório contém projetos desenvolvidos por mim ao longo dos meus estud
 <hr />
 
 ### Projeto 1:
-<strong>Curso de Desenvolvimento WEB - Introdução ao HTML ✅ </strong>
+<strong>Curso de Desenvolvimento WEB (UDEMY) - Introdução ao HTML ✅ </strong>
 <ul>
 <li><a href="https://lucasSGomide.github.io/Aurora_Village_HTML" rel="nofollow">HTML - Aurora Village</a></li>
 </ul>
@@ -18,8 +18,14 @@ Este repositório contém projetos desenvolvidos por mim ao longo dos meus estud
 <li><a href="https://lucasSGomide.github.io/Portfolio_Pessoal" rel="nofollow">HTML - Portfolio Pessoal</a></li>
 </ul>
 
-### Projeto 2:
+### Projeto 3:
 <strong>Trybe - HTML & CSS ✅ </strong>
 <ul>
 <li><a href="https://lucasSGomide.github.io/Lessons_learned" rel="nofollow">HTML & CSS Lessons Learned</a></li>
+</ul
+  
+### Projeto 4:
+<strong>Curso de Desenvolvimento WEB (UDEMY) - HTML & CSS ✅ </strong>
+<ul>
+<li><a href="https://lucasSGomide.github.io/Bodybuilding_blog" rel="nofollow">HTML & CSS Bodybuilding Blog</a></li>
 </ul>
