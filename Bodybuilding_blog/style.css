@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: rgb(242, 250, 219);
+}
+
+.navigation {
+  background-color: white;
+  border-bottom: 1px solid rgb(146, 146, 146);
+  height: 45px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.top-layout {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.title {
+  float: left;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.menu {
+  float: right;
+  padding: 10px 0;
+}
+
+.main-content {
+  width: 720px;
+  margin: 55px auto 10px auto;
+}
+
+.main-post{
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post-date {
+  font-size: 14px;
+  border-bottom: 1px solid rgb(146, 146, 146);
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.main-img {
+  float: left;
+  width: 180px;
+  margin: 0 10px 5px 0;
+}
+
+.author {
+  border-left: rgb(146, 146, 146) 5px solid;
+  padding-left: 5px;
+  display: block;
+  margin-top: 10px;
+}
+/* Formatação do MENU */
+
+a {
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+a:link {
+  color: rgb(31 , 30 , 30);
+}
+
+a:visited {
+  color: rgb(31 , 30 , 30);
+}
+
+a:hover {
+  background-color: rgb(203, 255, 125);
+  color: white;
+}
+
+a:active {
+  color: rgb(31 , 30 , 30);
+}
+
+h2 {
+  color: rgb(173 , 255 , 47);
+}
+
+/* Cores */
+
+.green-yellow {
+  color: rgb(173 , 255 , 47);
+}
+
+.dark-gray {
+  color: rgb(31 , 30 , 30);
+}
+
