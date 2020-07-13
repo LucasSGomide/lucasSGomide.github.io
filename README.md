@@ -22,10 +22,10 @@ Este repositório contém projetos desenvolvidos por mim ao longo dos meus estud
 <strong>Trybe - HTML & CSS ✅ </strong>
 <ul>
 <li><a href="https://lucasSGomide.github.io/Lessons_learned" rel="nofollow">HTML & CSS Lessons Learned</a></li>
-</ul
-  
+</ul>
+
 ### Projeto 4:
-<strong>Curso de Desenvolvimento WEB (UDEMY) - HTML & CSS ✅ </strong>
+<strong>Curso desenvolvimento WEB (UDEMY) - HTML & CSS ✅ </strong>
 <ul>
 <li><a href="https://lucasSGomide.github.io/Bodybuilding_blog" rel="nofollow">HTML & CSS Bodybuilding Blog</a></li>
 </ul>
