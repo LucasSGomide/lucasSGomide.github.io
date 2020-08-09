@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task List</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="flexbox">
+      <div class="flexbox title-container">
+        <h1 class="title">Task List</h1>
+        <h2 class="subtitle"><em>Double click to set a task as complete.</em></h2>
+      </div>
+      
+      
+    </header>
+    <nav class="flexbox">
+      <span>Task:</span>
+      <div class="field">
+        <div class="control">
+          <input class="input" id="texto-tarefa" type="text" placeholder="Add a new task to your list">
+        </div>
+      </div>
+      <div class="buttons-container flexbox">
+        <button id="criar-tarefa" class="button is-success is-outlined btn-mine">ADD</button>
+        <button id="salvar-tarefas" class="button btn-mine">Save</button>
+        <button id="remover-finalizados" class="button btn-mine">Clear Completed</button>
+        <button id="remover-selecionado" class="button btn-mine">Remove Selected</button>
+        <button id="apaga-tudo" class="button is-danger is-outlined btn-mine">Clear All</button>
+        <button id="mover-cima" class="button is-small is-outlined is-success btn-mine-up">/\</button>
+        <button id="mover-baixo" class="button is-small is-outlined is-danger btn-mine-down">\/</button>
+      </div>
+    </nav>
+    <section class="task-container flexbox">
+      <ol id="lista-tarefas" class=" task-list flexbox">
+
+      </ol>
+    </section>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

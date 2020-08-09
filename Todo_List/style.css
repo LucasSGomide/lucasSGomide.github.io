@@ -1,0 +1,96 @@
+.buttons-container {
+  margin: 20 0px;
+  max-width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-mine {
+  display: flex;
+  margin: 5px 10px;
+}
+
+.btn-mine-up {
+  display: flex;
+  margin: 5px 10px;
+}
+
+.btn-mine-down {
+  display: flex;
+  margin: 5px 10px;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.title {
+  color: rgb(26, 26, 26);
+}
+
+.subtitle {
+  color: rgb(46, 45, 45)
+}
+
+.title-container {
+  align-items: center;
+  background-color: rgb(233, 244, 248);
+  border: 1px rgb(185, 185, 185) solid;
+  border-radius: 15px;
+  flex-direction: column;
+  width: 80%;
+}
+
+header {
+  width: 100;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+nav {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+nav span {
+  font-size: 1.5rem;
+}
+
+.selected {
+  background-color: rgb(214, 214, 214);
+  width: 95%;
+  justify-content: center;
+}
+
+.task-container {
+  width: 100%;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.task-list {
+  border: 1px rgb(185, 185, 185) solid;
+  border-radius: 15px;
+  background-color: rgb(233, 244, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.task-item {
+  display: flex;
+  margin: 5px;
+}
+
+  .completed {
+  display: flex;
+  color: rgb(190, 10, 10);
+  list-style-type: none;
+  justify-content: center;
+  margin: 5px
+}
+
+@media for screen (600px)
