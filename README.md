@@ -29,3 +29,9 @@ Este repositório contém projetos desenvolvidos por mim ao longo dos meus estud
 <ul>
 <li><a href="https://lucasSGomide.github.io/Bodybuilding_blog" rel="nofollow">HTML & CSS Bodybuilding Blog</a></li>
 </ul>
+
+### Projeto 5:
+<strong>Trybe - HTML, CSS, CSS FLEXBOX, BULMA, JAVASCRIPT ✅ </strong>
+<ul>
+<li><a href="https://lucasSGomide.github.io/Todo_List" rel="nofollow">To do List - Projetct</a></li>
+</ul>
