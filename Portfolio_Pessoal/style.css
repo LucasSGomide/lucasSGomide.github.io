@@ -28,7 +28,7 @@ a {
 }
 
 #main-content {
-  width: 1100px;
+  width: 85%;
   margin: auto;
   position: relative;
   bottom: -300px;
@@ -180,5 +180,3 @@ div.floater-skills-right li{
   border-top:rgb(32, 32, 31) 1px solid;
   margin-top: 30px;
 }
-}
-
