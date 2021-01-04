@@ -1,0 +1,242 @@
+.birthdate-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 5px;
+  width: 300px;
+}
+
+.birthdate-container label {
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 20px 0 5px;
+}
+
+.birth-date {
+  border: 1px solid rgb(211, 221, 238);
+  border-radius: 3px;
+  color: rgb(44, 44, 44);
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.button-login {
+  background-color: rgb(101, 132, 196);
+  border: 1px solid  rgb(71, 94, 139);
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+}
+
+.confirmation-form {
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 20px 0 5px;
+}
+
+.facebook-login {
+  display: flex;
+  flex-flow: row;
+  width: 30%;
+}
+
+.facebook-logo {
+  display: flex;
+}
+
+.facebook-networking {
+  display: flex;
+  margin: -10px 0 30px 0;
+  width: 70%;
+}
+
+.facebook-password {
+  display: flex;
+  flex-flow: column;
+}
+
+.facebook-slogan {
+  width: 800px;
+}
+
+.first-name {
+  border: 1px solid rgb(211, 221, 238);
+  border-radius: 3px;
+  display: flex;
+  font-size: 1.2rem;
+  margin-right: 7px;
+  padding: 5px;
+  width: 50%;
+}
+
+.form-control {
+  align-self: flex-end;
+  display: flex;
+  flex-flow: column;
+  margin-right: 50px;
+}
+
+.form-group {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.form-group label {
+  color: rgb(240, 240, 240);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gender {
+  color: gray;
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 5px 0 10px;
+  width: 100%;
+}
+
+.gender-container {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.gender-custom-input {
+  border: 1px solid rgb(211, 221, 238);
+  border-radius: 3px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding: 5px;
+  width: 100%;
+}
+
+h1 {
+  color: rgb(61, 61, 61);
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.last-name {
+  border: 1px solid rgb(211, 221, 238);
+  border-radius: 3px;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 5px;
+  width: 50%;
+}
+
+.left-content {
+  display: flex;
+  flex-flow: column wrap;
+  height: auto;
+  width: 800px;
+}
+
+.left-content p {
+  color: rgb(66, 103, 178);
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 60px;
+  text-align: left;
+  width: 60%;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.password {
+  border: 1px solid rgb(211, 221, 238);
+  border-radius: 3px;
+  display: flex;
+  flex-grow: 1;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.phone-email {
+  border: 1px solid rgb(211, 221, 238);
+  border-radius: 3px;
+  display: flex;
+  flex-grow: 1;
+  font-size: 1.2rem;
+  margin: 12px 0;
+  padding: 5px;
+}
+
+.right-content {
+  display: flex;
+  flex-flow: column wrap;
+  height: auto;
+  width: 300px;
+}
+
+.right-content p {
+  font-size: 1.4rem;
+  margin: -15px 0 15px 0;
+}
+
+.submit-button {
+  background-color: rgb(38, 149, 38);
+  border: 1px solid rgb(211, 221, 238);
+  border-radius: 6px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-top: 20px;
+  padding: 10px 30px;
+  text-shadow: 10px black;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+}
+
+.totalName {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 5px 0;
+}
+
+.user-email-phone {
+  border: 1px black solid;
+  display: flex;
+  font-size: 1rem;
+  width: 90%;
+}
+
+.user-password {
+  border: 1px black solid;
+  display: flex;
+  font-size: 1rem;
+  width: 90%;
+}

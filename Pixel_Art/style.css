@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+}
+
+nav {
+  height: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.color {
+  background-color: black;
+  border: 1px black solid;
+  display: inline-block;
+  height: 40px;
+  margin: 5px;
+  width: 40px;
+}
+
+.selected {
+  background-color: black;
+  border: 1px black solid;
+  display: inline-block;
+  height: 40px;
+  margin: 5px;
+  width: 40px;
+}
+
+.button-container {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.board {
+  border: 1px black solid;
+  display: table;
+  margin: auto;
+}
+
+.tr {
+  display: table-row;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px black solid;
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+}
