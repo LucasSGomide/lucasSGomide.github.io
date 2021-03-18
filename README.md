@@ -36,5 +36,14 @@ Este repositório contém projetos desenvolvidos por mim ao longo dos meus estud
 ### Projeto 6:
 <strong>Trybe - REACT, CSS, REDUX </strong>
 <ul>
-<li><a href="https://github.com/LucasSGomide/Tryvia" rel="nofollow">Tryvia Game - Projetct</a></li>
+<li><a href="https://github.com/LucasSGomide/Tryvia" rel="nofollow">Tryvia Game - Project</a></li>
+<li><a href="https://tryvia-deploy.vercel.app/" rel="nofollow">Tryvia Game - Project</a></li>
 </ul>
+
+### Projeto 7:
+<strong>Trybe - REACT, CSS, CONTEXT </strong>
+<ul>
+<li><a href="https://github.com/LucasSGomide/Tryvia" rel="nofollow">Recipes App - Project</a></li>
+<li><a href="https://recipes-app-seven.vercel.app/" rel="nofollow">Recipes App - Deploy</a></li>
+</ul>
+
