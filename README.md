@@ -47,3 +47,9 @@ Este repositório contém projetos desenvolvidos por mim ao longo dos meus estud
 <li><a href="https://recipes-app-seven.vercel.app/" rel="nofollow">Recipes App - Deploy</a></li>
 </ul>
 
+### Projeto 8:
+<strong>Personal - REACT, CSS </strong>
+<ul>
+<li><a href="https://github.com/LucasSGomide/Aurora_Village" rel="nofollow">Aurora Village - Project</a></li>
+<li><a href="https://aurora-village-deploy.vercel.app/" rel="nofollow">Aurora Village - Deploy</a></li>
+</ul>
