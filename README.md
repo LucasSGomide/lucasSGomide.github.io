@@ -32,6 +32,9 @@ Este repositório contém projetos desenvolvidos por mim ao longo dos meus estud
 
 ### Projeto 5:
 <strong>Trybe - HTML, CSS, CSS FLEXBOX, BULMA, JAVASCRIPT ✅ </strong>
+
+### Projeto 6:
+<strong>Trybe - REACT, CSS, REDUX </strong>
 <ul>
-<li><a href="https://lucasSGomide.github.io/Todo_List" rel="nofollow">To do List - Projetct</a></li>
+<li><a href="https://github.com/LucasSGomide/Tryvia" rel="nofollow">To do List - Projetct</a></li>
 </ul>
