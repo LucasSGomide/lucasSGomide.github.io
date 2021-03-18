@@ -36,5 +36,5 @@ Este repositório contém projetos desenvolvidos por mim ao longo dos meus estud
 ### Projeto 6:
 <strong>Trybe - REACT, CSS, REDUX </strong>
 <ul>
-<li><a href="https://github.com/LucasSGomide/Tryvia" rel="nofollow">To do List - Projetct</a></li>
+<li><a href="https://github.com/LucasSGomide/Tryvia" rel="nofollow">Tryvia Game - Projetct</a></li>
 </ul>
